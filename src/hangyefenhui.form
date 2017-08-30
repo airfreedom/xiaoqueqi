@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="hangyefenhui">
+  <grid id="27dc6" binding="bottom" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="66cea" class="javax.swing.JLabel">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-3804492"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <opaque value="true"/>
+          <text value="提案审批（行业分会）"/>
+        </properties>
+      </component>
+      <grid id="f705d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9d088" class="javax.swing.JButton" binding="备案">
+            <constraints/>
+            <properties>
+              <background color="-15163165"/>
+              <foreground color="-1"/>
+              <text value="备案"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5c42f" binding="center" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

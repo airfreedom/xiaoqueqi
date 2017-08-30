@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ProList">
+  <grid id="27dc6" binding="bottom" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="68a06" class="javax.swing.JLabel" binding="title">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-8208579"/>
+          <foreground color="-16777216"/>
+          <opaque value="true"/>
+          <text value="提案列表"/>
+        </properties>
+      </component>
+      <grid id="ae1f5" binding="buttonFace" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3f57b" class="javax.swing.JLabel" binding="选择编号">
+            <constraints/>
+            <properties>
+              <text value="选择编号"/>
+            </properties>
+          </component>
+          <component id="19392" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="1"/>
+                <item value="2"/>
+              </model>
+            </properties>
+          </component>
+          <component id="843fe" class="javax.swing.JButton" binding="查询详细内容">
+            <constraints/>
+            <properties>
+              <enabled value="true"/>
+              <text value="查询详细内容"/>
+            </properties>
+          </component>
+          <component id="3314a" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="打印"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="9f61a" binding="center" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
